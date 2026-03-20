@@ -32,8 +32,8 @@ Pin numbers from 200 to 215 are IO Expander 2, from pin 0 to pin 15.
     #define PIN_SPI_CK 0
     #define PIN_SPI_TX 0
     #define PIN_SPI_RX 0
-    #define PIN_I2C_SDA 0
-    #define PIN_I2C_SCL 0
+    #define PIN_I2C_SDA 14
+    #define PIN_I2C_SCL 15
     #define PIN_SPI_CS0 0
     #define PIN_SPI_CS1 0
     #define PIN_HOME 20
