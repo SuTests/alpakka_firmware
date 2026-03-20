@@ -32,8 +32,8 @@ Pin numbers from 200 to 215 are IO Expander 2, from pin 0 to pin 15.
     #define PIN_SPI_CK 0
     #define PIN_SPI_TX 0
     #define PIN_SPI_RX 0
-    #define PIN_I2C_SDA 20
-    #define PIN_I2C_SCL 21
+    #define PIN_I2C_SDA 14
+    #define PIN_I2C_SCL 15
     #define PIN_SPI_CS0 0
     #define PIN_SPI_CS1 0
     #define PIN_HOME 0
@@ -43,32 +43,32 @@ Pin numbers from 200 to 215 are IO Expander 2, from pin 0 to pin 15.
     #define PIN_THUMBSTICK_RY 28
     #define PIN_THUMBSTICK_RX 29
     // Expanders.
-    #define PIN_SELECT_1 0
-    #define PIN_SELECT_2 0
-    #define PIN_DPAD_LEFT 9
-    #define PIN_DPAD_RIGHT 10
-    #define PIN_DPAD_UP 11
-    #define PIN_DPAD_DOWN 12
-    #define PIN_L1 1
-    #define PIN_L2 2
-    #define PIN_L3 3
-    #define PIN_L4 4
-    #define PIN_PCBGEN_0 0
-    #define PIN_PCBGEN_1 0
-    #define PIN_START_1 17
-    #define PIN_START_2 18
-    #define PIN_A 13
-    #define PIN_B 14
-    #define PIN_X 15
-    #define PIN_Y 16
+    #define PIN_SELECT_1 19
+    #define PIN_SELECT_2 20
+    #define PIN_DPAD_LEFT 1
+    #define PIN_DPAD_RIGHT 2
+    #define PIN_DPAD_UP 3
+    #define PIN_DPAD_DOWN 4
+    #define PIN_L1 5
+    #define PIN_L2 6
+    #define PIN_L3 7
+    #define PIN_L4 8
+    #define PIN_PCBGEN_0 21
+    #define PIN_PCBGEN_1 22
+    #define PIN_START_1 23
+    #define PIN_START_2 24
+    #define PIN_A 9
+    #define PIN_B 10
+    #define PIN_X 11
+    #define PIN_Y 12
     #define PIN_DHAT_LEFT 0
     #define PIN_DHAT_RIGHT 0
-    #define PIN_DHAT_UP 23
-    #define PIN_DHAT_DOWN 24
-    #define PIN_R1 5
-    #define PIN_R2 6
-    #define PIN_R3 7
-    #define PIN_R4 8
+    #define PIN_DHAT_UP 0
+    #define PIN_DHAT_DOWN 0
+    #define PIN_R1 13
+    #define PIN_R2 16
+    #define PIN_R3 17
+    #define PIN_R4 18
 #endif
 
 // Marmota.
